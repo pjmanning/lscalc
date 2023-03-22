@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="background" class="h-screen w-screen flex">
+  <div class="h-screen w-screen flex bg-gradient-to-br from-[#5423e7] to-[#ffc233]">
     <div class="bg-white bg-opacity-50 h-4/5 w-4/5 m-auto rounded-lg">
       <h1 class="text-center pt-10 text-4xl">Lemon Squeezy Calculator</h1>
       <!-- <p class="text-center pt-10">Able is a web application that allows you to create and manage your own projects.</p>
@@ -15,10 +15,4 @@
   </div>
 </template>
 
-<style scoped>
-#background {
-  background-image: url('able-lavender-dinosaur.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-</style>
+<style scoped></style>
